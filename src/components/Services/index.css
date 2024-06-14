@@ -1,0 +1,136 @@
+.services-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: whitesmoke;
+  margin-bottom: 8px;
+}
+
+.services-page-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.services-page-heading {
+  font-family: "Roboto";
+  width: 45%;
+}
+
+.services-link {
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+.get-start-button {
+  height: 40px;
+  width: 120px;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(217, 65, 10),
+    rgb(224, 106, 62)
+  );
+  border-width: 0px;
+  border-radius: 23px;
+  cursor: pointer;
+  outline: none;
+  padding: 6px;
+  color: white;
+  margin-right: 20px;
+}
+
+.services-page-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.services-page-card {
+  background-color: white;
+  margin: 5px;
+  height: 250px;
+  width: 29%;
+  border-radius: 8px;
+  padding-top: 25px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-start-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -8px;
+  padding: 0px;
+}
+
+.card-img {
+  height: 50px;
+  width: 70px;
+}
+
+.card-count {
+  color: orangered;
+  opacity: 0.1;
+  font-size: 25px;
+  font-family: "Roboto";
+}
+
+.card-heading {
+  font-size: 20px;
+  font-family: "Roboto";
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: gray;
+}
+
+@media screen and (max-width: 1100px) {
+  .services-page {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .services-page {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-page {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .services-page-card {
+    width: 40%;
+    min-height: 340px;
+    max-height: auto;
+    padding-bottom: 10px;
+  }
+
+  .card-description {
+    font-size: 12px;
+  }
+
+  .get-start-button {
+    margin-right: 20px;
+  }
+}

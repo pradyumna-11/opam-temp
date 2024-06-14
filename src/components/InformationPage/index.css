@@ -1,0 +1,144 @@
+.info-page {
+  background-image: url("https://res.cloudinary.com/daxizvsge/image/upload/v1718097061/footer-image_jhbpfb.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+  font-family: "Livvic";
+  font-weight: 400;
+  max-width: 100%;
+}
+
+.main-footer-container {
+  margin: 0;
+}
+
+.info-container {
+  width: 250px;
+  margin: 20px;
+  font-family: "Livvie";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+  margin: 20px;
+}
+
+.image-logo {
+  width: 60%;
+  height: 90px;
+  background-color: transparent;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.icons {
+  margin: 10px;
+}
+
+.news-letter {
+  text-align: start;
+  height: 30px;
+  border-radius: 10px 0 0 10px;
+}
+
+.info-container-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.info-icon {
+  margin-right: 10px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+
+.newsletterbtn {
+  height: 50px;
+  width: 40px;
+  border-radius: 0 10px 10px 0;
+  border-style: none;
+  background-color: aqua;
+}
+
+.footer-container {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Livvic";
+}
+
+.footer-routes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.main-footer-container {
+  font-family: "Livvic";
+}
+
+.email-newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .info-page {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .info-container {
+    width: 100%;
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  .info-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

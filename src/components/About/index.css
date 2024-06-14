@@ -1,0 +1,278 @@
+.about-main {
+  background-color: azure;
+  margin-top: 60px;
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .about-main {
+    min-height: 100vh;
+    max-height: 100%;
+    background-color: azure;
+    margin-top: 0px;
+  }
+}
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+}
+
+.about-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-section1 {
+    width: 80%;
+  }
+}
+
+.line {
+  width: 20px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+
+.line1 {
+  width: 70px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 8px;
+  align-self: flex-start;
+}
+
+.heading {
+  color: #03228f;
+  font-family: "Livvic";
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.xyz {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.main-heading1 {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 36px;
+  color: #0a0a0a;
+  margin-top: 0px;
+}
+
+.description1 {
+  color: #454545;
+  font-family: "Livvic";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.num {
+  color: #dd4c23;
+  font-family: "Livvic";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.plus-logo {
+  color: #dd4c23;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.num1 {
+  color: #03228f;
+  font-family: "Livvic";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.plus-logo1 {
+  color: #03228f;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.num-section {
+  display: flex;
+  margin-top: 0px;
+}
+
+.about-section-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section-2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 33%;
+  border-radius: 20px;
+  padding: 10px;
+  border-width: 0px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 33%;
+  }
+}
+
+.icons {
+  transform: rotate(45deg);
+  height: 70px;
+}
+
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-right: 7px;
+  margin-bottom: 0px;
+}
+
+.about-section-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+.about-img {
+  height: 300px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-img {
+    height: 350px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-img {
+    width: 100%;
+    max-width: 350px;
+    align-self: center;
+  }
+}
+
+.skill-set {
+  margin-left: 30px;
+}
+
+.info-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.h-line {
+  background-image: linear-gradient(to right, #fd6509 92%, #dfedfe 8%);
+  height: 6px;
+  margin-top: 0px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+.h-line1 {
+  background-image: linear-gradient(to right, #03dea8 82%, #dfedfe 18%);
+  height: 6px;
+  margin-top: 0px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+.h-line2 {
+  background-image: linear-gradient(to right, #0a99fd 95%, #dfedfe 5%);
+  height: 6px;
+  margin-top: 0px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+.h-line3 {
+  background-image: linear-gradient(to right, #f00674 78%, #dfedfe 22%);
+  height: 6px;
+  margin-top: 0px;
+  border-radius: 3px;
+  border-width: 0px;
+}

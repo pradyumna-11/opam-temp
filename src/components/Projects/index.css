@@ -1,0 +1,50 @@
+.portfolios-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolios-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+.project-heading{
+    color: #03228F;
+    font-family: 'Livvic';
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.project-main-heading{
+    color: #0A0A0A;
+    font-family: 'Livvic';
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.project-description{
+    color: #454545;
+    font-family: 'Livvic';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.code-img{
+    height: 350px;
+    width: 400px;
+}

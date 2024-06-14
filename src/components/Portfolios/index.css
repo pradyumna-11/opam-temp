@@ -1,0 +1,145 @@
+.portfolios-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: whitesmoke;
+  margin-bottom: 8px;
+}
+
+.portfolios-page-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolios-page-img {
+  height: 100%;
+  width: 50%;
+}
+
+.portfolios-page-inner-2-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+}
+
+.portfolios-page-inner-2-section-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bar-img {
+  width: 60px;
+  height: 20px;
+}
+
+.why-choose-us-text {
+  margin-left: 5px;
+  font-size: 12px;
+  color: rgb(103, 103, 249);
+  font-family: "Roboto";
+}
+
+.portfolios-page-inner-2-section-heading {
+  font-size: 24px;
+  font-family: "Roboto";
+  margin-bottom: 0px;
+}
+
+.portfolios-page-inner-2-section-description {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: gray;
+}
+
+.portfolios-page-inner-2-cards-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.portfolios-page-inner-2-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.portfolios-page-card-img {
+  height: 100%;
+  width: 80px;
+}
+
+.portfolios-page-inner-2-card-contents {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+}
+
+.portfolios-page-inner-2-card-heading {
+  font-size: 17px;
+  font-family: "Roboto";
+  margin: 0px;
+}
+
+.portfolios-page-inner-2-card-description {
+  font-size: 12px;
+  color: gray;
+  font-family: "Roboto";
+}
+
+@media screen and (max-width: 1100px) {
+  .portfolios-page {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .portfolios-page {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolios-page-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolios-page-card-img {
+    height: 100%;
+    width: 50px;
+  }
+
+  .portfolios-page-inner-2-section {
+    width: 100%;
+    align-items: center;
+  }
+
+  .portfolios-page-inner-2-section-heading {
+    text-align: center;
+  }
+
+  .portfolios-page-inner-2-section-description {
+    text-align: center;
+  }
+
+  .portfolios-page-inner-2-cards-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  .get-start-button {
+    margin-right: 20px;
+  }
+}
