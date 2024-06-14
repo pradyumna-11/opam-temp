@@ -16,6 +16,8 @@
 
 .services-page-heading {
   font-family: "Roboto";
+  text-align: left;
+  margin-top: 4px;
   width: 45%;
 }
 
@@ -62,6 +64,7 @@
   padding-bottom: 18px;
   padding-left: 10px;
   padding-right: 10px;
+  flex-grow: 1;
 }
 
 .card-start-container {

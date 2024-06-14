@@ -64,38 +64,38 @@
   }
 }
 
-.line {
+.xyz {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 230px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.hr-line {
   width: 20px;
   height: 7px;
   background-color: #fd6509;
-  margin-right: 20px;
   margin-top: 8px;
+  border-width: 0px;
 }
 
-.line1 {
+.hr-line1 {
   width: 70px;
   height: 7px;
   background-color: #fd6509;
   margin-top: 8px;
-  align-self: flex-start;
+  border-width: 0px;
 }
 
-.heading {
+.about-heading {
   color: #03228f;
   font-family: "Livvic";
   font-weight: 400;
   font-size: 20px;
-  margin-left: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.xyz {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
 }
 
 .main-heading1 {
@@ -202,7 +202,7 @@ p {
 .about-section-3 {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -237,6 +237,30 @@ p {
 
 .skill-set {
   margin-left: 30px;
+}
+
+.skill-set-hr-line {
+  width: 20px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 25px;
+  border-width: 0px;
+}
+
+.skill-set-hr-line1 {
+  width: 70px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 25px;
+  border-width: 0px;
+}
+
+.skill-set-heading {
+  font-family: Livvic;
+  font-size: 20px;
+  color: #03228f;
+  margin-left: 10px;
+  margin-bottom: 0px;
 }
 
 .info-content {

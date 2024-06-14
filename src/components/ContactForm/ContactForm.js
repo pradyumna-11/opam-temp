@@ -101,7 +101,7 @@ const ContactForm = () => {
             <div className="input-container">
               <div>
                 <input
-                  type="text"
+                  type="number"
                   name="phone"
                   placeholder="Phone"
                   value={formData.Phone}
@@ -114,7 +114,7 @@ const ContactForm = () => {
                   type="text"
                   name="text"
                   placeholder="Website"
-                  value={formData.website}
+                  value={formData.Website}
                   onChange={handleChange}
                   required
                 />

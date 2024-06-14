@@ -14,10 +14,6 @@ const Header = () => {
           <button type="button" className="nav-mobile-btn">
             Get A Quote
           </button>
-
-          <button type="button" className="nav-mobile-btn">
-            Product
-          </button>
         </div>
 
         <div className="nav-bar-large-container">
@@ -69,12 +65,15 @@ const Header = () => {
                 Contact
               </a>
             </li>
+
+            <li className="nav-menu-item">
+              <a href="#sectionHome" className="link">
+                Product
+              </a>
+            </li>
           </ul>
           <button type="button" className="logout-desktop-btn">
             Get A Quote
-          </button>
-          <button type="button" className="logout-desktop-btn">
-            Product
           </button>
         </div>
       </div>
@@ -144,6 +143,16 @@ const Header = () => {
             <a href="#sectionContact" className="link">
               <img
                 src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718261652/5171448-200_chbqre.png"
+                alt="nav products"
+                className="nav-bar-image"
+              />
+            </a>
+          </li>
+
+          <li className="nav-menu-item-mobile">
+            <a href="#sectionHome" className="link">
+              <img
+                src="https://res.cloudinary.com/daxizvsge/image/upload/v1718366537/Screenshot_2024-06-14_173149_xggg5h.png"
                 alt="nav products"
                 className="nav-bar-image"
               />

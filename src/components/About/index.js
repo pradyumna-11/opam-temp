@@ -6,9 +6,9 @@ const About = () => {
       <div className="about-us">
         <div className="about-section1">
           <div className="xyz">
-            <hr className="line" />
-            <hr className="line1" />
-            <h1 className="heading">ABOUT US</h1>
+            <hr className="hr-line" />
+            <hr className="hr-line1" />
+            <h1 className="about-heading">ABOUT US</h1>
           </div>
           <h1 className="main-heading1">
             Over 4+ Years Helping Brands to Reach Full Potential
@@ -92,9 +92,9 @@ const About = () => {
         />
         <div className="skill-set">
           <div className="xyz">
-            <div className="line"></div>
-            <div className="line1"></div>
-            <h1 className="heading">SKILLSET</h1>
+            <hr className="skill-set-hr-line" />
+            <hr className="skill-set-hr-line1" />
+            <h1 className="skill-set-heading">SKILLSET</h1>
           </div>
           <h1>We Have the Hottest Skills to Hire For in 2024</h1>
           <div className="info">
