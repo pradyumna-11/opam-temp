@@ -29,6 +29,13 @@ const ContactForm = () => {
         formData
       );
       alert(response.data);
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        website: "",
+        message: "",
+      });
     } catch (error) {
       console.error("There was an error sending the message!", error);
     }

@@ -1,0 +1,46 @@
+.queries-section-container {
+  padding: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.queries-heading {
+  font-size: 30px;
+  font-family: "Sans-Serif";
+  margin-bottom: 12px;
+}
+
+.queries-container {
+  padding: 0px;
+}
+
+.page-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.failure-heading {
+  font-size: 25px;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.retry-button {
+  height: 38px;
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #ffffff;
+  background-color: rgb(67, 67, 230);
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 8px;
+}

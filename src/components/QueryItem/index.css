@@ -1,0 +1,30 @@
+.query-item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-bottom: 7px;
+}
+
+.query-connected-button {
+  background-color: rgb(76, 76, 248);
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto";
+  border-width: 0px;
+  border-radius: 8px;
+  height: 40px;
+  width: 180px;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+  margin-right: 15px;
+}
+
+.query-data {
+  font-family: "Bree Serif";
+  font-size: 17px;
+}
