@@ -99,28 +99,28 @@ const About = () => {
           <h1>We Have the Hottest Skills to Hire For in 2024</h1>
           <div className="info">
             <div className="info-content">
-              <p>App Development</p>
+              <p className="info-text">App Development</p>
               <p>92%</p>
             </div>
             <hr className="h-line" />
           </div>
           <div className="info">
             <div className="info-content">
-              <p>Website Development</p>
+              <p className="info-text">Website Development</p>
               <p>82%</p>
             </div>
             <hr className="h-line1" />
           </div>
           <div className="info">
             <div className="info-content">
-              <p>UI/UX & Graphics Design</p>
+              <p className="info-text">UI/UX & Graphics Design</p>
               <p>95%</p>
             </div>
             <hr className="h-line2" />
           </div>
           <div className="info">
             <div className="info-content">
-              <p>Digital Marketing</p>
+              <p className="info-text">Digital Marketing</p>
               <p>95%</p>
             </div>
             <hr className="h-line3" />

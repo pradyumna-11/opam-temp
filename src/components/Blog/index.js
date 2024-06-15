@@ -10,10 +10,10 @@ const Blog = () => {
           className="blog-img"
         />
         <div className="testimonial-section">
-          <div className="xyz">
-            <div className="line"></div>
-            <div className="line1"></div>
-            <h1 className="heading">Testimonials</h1>
+          <div className="testimonial-xyz">
+            <hr className="testimonial-hr-line" />
+            <hr className="testimonial-hr-line1" />
+            <h1 className="testimonial-heading">Testimonials</h1>
           </div>
           <h1 className="blog-heading">What Customer Saying</h1>
           <p className="blog-description">

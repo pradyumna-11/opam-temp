@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { FaEnvelope } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaMobile } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaMobile } from "react-icons/fa";
 import axios from "axios";
 import "./index.css";
 
@@ -9,8 +7,8 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    Phone: "",
-    Website: "",
+    phone: "",
+    website: "",
     message: "",
   });
 
@@ -37,11 +35,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="sectionContact">
+    <div>
       <div className="contact-container">
-        <div className="details-conatiner">
+        <div className="details-container">
           <p className="details-subheading">LET'S TALK</p>
-          <h1 className="details-mainheading">Speack With Expert Engineer.</h1>
+          <h1 className="details-mainheading">Speak With Expert Engineer.</h1>
           <div>
             <div className="icon-details">
               <div className="icon">
@@ -101,10 +99,10 @@ const ContactForm = () => {
             <div className="input-container">
               <div>
                 <input
-                  type="number"
+                  type="text"
                   name="phone"
                   placeholder="Phone"
-                  value={formData.Phone}
+                  value={formData.phone}
                   onChange={handleChange}
                   required
                 />
@@ -112,9 +110,9 @@ const ContactForm = () => {
               <div>
                 <input
                   type="text"
-                  name="text"
+                  name="website"
                   placeholder="Website"
-                  value={formData.Website}
+                  value={formData.website}
                   onChange={handleChange}
                   required
                 />
@@ -139,15 +137,13 @@ const ContactForm = () => {
         <iframe
           width="100%"
           height="300"
-          title="maps"
           frameBorder="0"
           scrolling="no"
           marginHeight="0"
           marginWidth="0"
+          title="map"
           src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=3,%20Plot%20no.%20145,%20near%20Indian%20Institute%20Of%20Information%20Technology%20Road,%20Devprayagam%20Colony,%20Jhalwa,%20Prayagraj,%20Dadanpur,%20Uttar%20Pradesh%20211012+(Opam%20technologies)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        >
-          <a href="https://www.gps.ie/">gps trackers</a>
-        </iframe>
+        ></iframe>
       </div>
     </div>
   );

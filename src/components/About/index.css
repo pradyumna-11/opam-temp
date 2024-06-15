@@ -1,6 +1,5 @@
 .about-main {
   background-color: azure;
-  margin-top: 60px;
   min-height: 100vh;
   max-height: 100%;
 }
@@ -66,11 +65,8 @@
 
 .xyz {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   width: 230px;
   margin-bottom: 10px;
-  align-items: center;
 }
 
 .hr-line {
@@ -79,6 +75,7 @@
   background-color: #fd6509;
   margin-top: 8px;
   border-width: 0px;
+  margin-right: 14px;
 }
 
 .hr-line1 {
@@ -87,6 +84,7 @@
   background-color: #fd6509;
   margin-top: 8px;
   border-width: 0px;
+  margin-right: 14px;
 }
 
 .about-heading {
@@ -192,10 +190,10 @@
 h1 {
   font-size: 20px;
 }
-p {
-  font-size: 15px;
-  margin-top: 0px;
-  margin-right: 7px;
+
+.info-text {
+  font-size: 18px;
+  margin-top: 5px;
   margin-bottom: 0px;
 }
 
@@ -245,6 +243,7 @@ p {
   background-color: #fd6509;
   margin-top: 25px;
   border-width: 0px;
+  margin-right: 14px;
 }
 
 .skill-set-hr-line1 {
@@ -253,14 +252,15 @@ p {
   background-color: #fd6509;
   margin-top: 25px;
   border-width: 0px;
+  margin-right: 14px;
 }
 
 .skill-set-heading {
   font-family: Livvic;
   font-size: 20px;
   color: #03228f;
-  margin-left: 10px;
-  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-top: 17px;
 }
 
 .info-content {
@@ -275,6 +275,7 @@ p {
   margin-top: 0px;
   border-radius: 3px;
   border-width: 0px;
+  margin-bottom: 3px;
 }
 
 .h-line1 {
@@ -283,6 +284,7 @@ p {
   margin-top: 0px;
   border-radius: 3px;
   border-width: 0px;
+  margin-bottom: 3px;
 }
 
 .h-line2 {
@@ -291,6 +293,7 @@ p {
   margin-top: 0px;
   border-radius: 3px;
   border-width: 0px;
+  margin-bottom: 3px;
 }
 
 .h-line3 {
@@ -299,4 +302,5 @@ p {
   margin-top: 0px;
   border-radius: 3px;
   border-width: 0px;
+  margin-bottom: 3px;
 }

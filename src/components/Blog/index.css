@@ -29,8 +29,7 @@
 
 @media screen and (min-width: 768px) {
   .blog-img {
-    height: 450px;
-    width: 37%;
+    height: 550px;
   }
 }
 
@@ -42,6 +41,37 @@
   .testimonial-section {
     height: 100%;
   }
+}
+
+.testimonial-xyz {
+  display: flex;
+  width: 230px;
+}
+
+.testimonial-hr-line {
+  width: 20px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 25px;
+  border-width: 0px;
+  margin-right: 14px;
+}
+
+.testimonial-hr-line1 {
+  width: 70px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 25px;
+  border-width: 0px;
+  margin-right: 14px;
+}
+
+.testimonial-heading {
+  font-family: Livvic;
+  font-size: 20px;
+  color: #03228f;
+  margin-left: 5px;
+  margin-top: 15px;
 }
 
 .blog-heading {
